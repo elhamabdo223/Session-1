@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.parent{
+    background-color: rgb(179, 165, 226);
+    height: 900px;
+    width: 1500px;
+}
+
+
+.child{ 
+    background-color: rgb(76, 47, 111);
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    margin: 10px;
+    padding: 20px;
+    gap: 40px;
+    border-radius: 10px;
+    height: 300px;
+   
+     
+}
+.card{
+   background-color: rgb(85, 62, 119);
+   padding: 10px;
+    box-shadow: 5px 5px 5px rgb(109, 95, 139);
+    border-radius: 10px;
+    text-align: center;
+     color:white;
+  
+}
+h1{
+    text-align: center;
+     color:white;
+
+}
+img{
+    width: 200px;
+    border-radius: 70px;
+}
